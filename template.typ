@@ -68,6 +68,11 @@
 
 	// Table of contents
 	set text(size: 13pt)
+	show outline.entry.where(level: 1): it => {
+		if it.element.body != [Appendix] {
+			it
+		}
+	}
 	outline(indent: auto)
 
 	// Reset page counter for main content
