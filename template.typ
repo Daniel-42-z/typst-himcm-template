@@ -7,6 +7,8 @@
 	// Set font to Libertinus Serif
 	set text(font: "Libertinus Serif", size: 12pt, lang: "en")
 	
+	set list(marker: ([•], [◦], [▪], [-]))
+
 	// Apply rubber-article template with custom settings
 	show: article.with(
 		lang: "en",
